@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner{
+    margin: 0px;
+    padding: 5px;
+}
+
+.GameLoft{
+position: sticky;
+align-items: center;
+box-sizing: border-box;
+background-color: red;
+margin: 20px;
+padding: 0px;
+}
+
+.welcome{
+  position:relative ;
+  top: 40%;
+  background-color: red;
+  color: white;
+}
+.nav{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 10px;
+    align-content: center;
+    flex-direction: row;
+}
+
+.
+
+
