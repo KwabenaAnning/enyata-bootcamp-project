@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "poppins", sans-serif;
+}
+
+header{
+    padding: 22px;
+    background-color: #f63232;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    position:fixed;
+}
+
+header h1{
+    color: white;
+    display: inline-block;
+    border-radius: 38px;
+    padding: 6px 14px;
+    border: 9px solid white;
+}
+
+.banner{
+    position: relative;
+
+}
+
+.banner img{
+width: 100%;
+max-width:100%;
+}
+
+.banner .welcome{
+  position:absolute ;
+  top: 45%;
+  left: 0%;
+  background-color: #f63232;
+  color: white;
+  padding: 32px;
+}
+
+.banner h2{
+    font-size: 42px;
+
+}
+
+.banner h2 span{
+  font-size: 1.3em;
+}
+
+
+
+nav{
+    background-color: #f4f4f4;
+    padding: 24px;
+    position: sticky;
+    top: 100px;
+
+}
+nav ul{
+    white-space:nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li{
+    display: inline-block;
+    width: 20%;
+    font-size: 25px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+nav li a.signup{
+    color: #f63232;
+}
+
+main{
+    max-width: 100%;
+    margin: 85px 15px;
+}
+article h2{
+    color: #f63232;
+    font-size: 48px;
+    text-align: center;
+}
+
+article p{
+    text-align: center;
+    width: 65%;
+    margin: 20px auto 0;
+    line-height: 26px;
+}
+.images {
+    margin: 14px;
+    text-align: center;
+}
+
+.images li{
+    display: inline-block;
+    width: 20%;
+    margin:60px 5%;
+}
+
+.images li img{
+    max-width: 100%;
+}
+
+.joinToday{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20%;
+    color: #4b4b4b;
+}
+ .joinToday h2{
+   font-size: 38px;
+ }
+ .joinToday p{
+    margin-top: 12px;
+ }
+
+ .joinToday form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+
+ }
+.submit-btn{
+    background-color: #f63232;
+    border: none;
+    border-radius: 52px;
+    padding: 22px;
+    width: 50%;
+    margin: 0 auto;
+    color: #f4f4f4;
+    font-size: 22px;
+    cursor: pointer;
+}
+ form input{
+    margin: 12px 0;
+    padding: 12px 22px;
+    font-size: 18px;
+    border: 6px solid white;
+    border-radius: 30px;
+ }
+ footer{
+    background-color: #f63232;
+    color: white;
+    padding: 22px;
+    text-align: center;
+ }
+
+/*
+.latest-releases{
+    color: red;
+    max-width: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+ }
+.image {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    background-color: white;
+    max-width: 100px;
+    width: 100px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+
+.join{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    padding: 30px;
+}
+.submit{
+    background-color: red;
+    color: white;
+    
+}
+
+.copyright{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+.column {
+    width: 100%;}}
+
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }}
+@media screen and (max-width: 1240) {.column{width:40%}}
+    
+}

@@ -1,3 +1,4 @@
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,54 +18,120 @@
   <body>
     <header>
       <h1>GameLoft</h1>
-    </header>
     <section class="banner">
       <img src="./assets/banner.jpeg" alt="banner">
-    </section>
-     <div class="welcome">
-      <h1>Welcome to</h1>
-      <br>
-      GameLoft
+      <div class="welcome">
+      <h2>Welcome to
+      <br />
+      <span>GameLoft</span>
+      </h2>
      </div>
-    <nav class="nav">
+    </section>
+    </header>
+    <nav class="navbar">
       <li>
-      <a href="#" class="sign up">Sign Up</a>
+       <a href="#" class="signup">Sign Up</a>
       </li>
       <li>
         <a href="#">Latest News</a>
       </li>
       <li>
-        <a href="#">New Releases</a>
+        <a href="#newReleases">New Releases</a>
+      </li>
       <li>
-      <li>
-        <a href="#">Contact</a>
-      <li>
+        <a href="#contact">Contact</a>
+      </li>
     </nav>
     <main>
       <article>
-       <li>Latest Releases</li>
+       <h2 id="newReleases">Latest Releases</h2>
        <p>ipsum dolor sit amet consectetur adipisicing elit. 
           Commodi voluptatum aspernatur repudiandae possimus in laboriosam, harum ea maxime dolorum accusamus? Odit tempora velit repellat, et aliquam facere vero perspiciatis veniam!
        </p>
-    </article>
-      <ul>
-        <li><img src="./assets/game1.jpeg" alt="Rede dead redemption II"></li>
+      </article>
+       <ul class="image">
+        <li><img src="./assets/game1.jpeg" alt="Red dead redemption II"></li>
         <li> <img src="./assets/game2.jpeg" alt="Grandtheft Auto V"></li>
         <li><img src="./assets/game3.jpeg" alt="Midnight Club II"> </li>
        </ul>
-     </main>
-     <section>
+    </main>
+    <section>
+      <div class="joinToday">
       <h2> Join Today</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-      <p>Please fields can't be empty</p>
+      <p class="error-field">Please fields can't be empty</p>
       <form>
       <input type="text" id="name" name="name" placeholder="Enter your name">
+      <p class="error-field">Please fields can't be empty</p>
       <input type="email" id="email" name="email" placeholder="Enter your email">
-      <button type="submit">submit</button>
+      <button class="submit" type="submit">submit</button>
       </form>
-     </section>
+      </div>
+    </section>
     <footer>
-      <p class="copyright">copyright © 2022 GameLoft</p>
+      <p class="copyright">Copyright © 2022 GameLoft</p>
     </footer>
   </body>
-</html>
+</html>  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+  </head>
+    <body>
+      <header>
+        <h1>GameLoft</h1>
+      </header>
+      <section class="banner">
+        <img src="./assets/banner.jpeg" alt="banner">
+        <div class="welcome">
+          <h2>
+            Welcome to <br />
+            <span>GameLoft</span>
+          </h2>
+        </div>
+      </section>
+    <nav class="navbar">
+      <li><a href="#" class="signup">Sign Up</a></li>
+      <li><a href="#">Latest News</a></li>
+      <li><a href="#newReleases">New Releases</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </nav>
+    <main>
+      <article>
+        <h2 id="newReleases">Latest Releases</h2>
+        <p>ipsum dolor sit amet consectetur adipisicing elit. 
+            Commodi voluptatum aspernatur repudiandae possimus in laboriosam, harum ea maxime dolorum accusamus? Odit tempora velit repellat, et aliquam facere vero perspiciatis veniam!
+        </p>
+      </article>
+      <ul class="images">
+        <li><img src="./assets/game1.jpeg" alt="Rede dead redemption II"></li>
+        <li> <img src="./assets/game2.jpeg" alt="Grandtheft Auto V"></li>
+        <li><img src="./assets/game3.jpeg" alt="Midnight Club II"> </li>
+      </ul>
+    </main>
+    <section class="joinToday" id="Contact">
+      <h2 id="join"> Join Today</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <p class="error">Please fields can't be empty</p>
+      <form action="form">
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <button class="submit-btn" type=submit>submit</button>
+      </form>
+    </section>
+    <footer>
+  
+  
