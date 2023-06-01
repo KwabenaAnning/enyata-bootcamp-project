@@ -159,6 +159,14 @@ article p{
     text-align: center;
  }
 
+  @media screen and (min-width: 345px) and (max-width:605px){.header{ position: relative;}}
+
+  @media screen and (min-width: 850px){.nav ul{ gap: 50px;}}
+
+  @media screen and (min-width: 850px){.banner h2 span{ display: flex;}}
+    
+
+
 /*
 .latest-releases{
     color: red;
